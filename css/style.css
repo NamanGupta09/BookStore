@@ -1,0 +1,58 @@
+/*header*/
+header{
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .8)),url(img/header-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0,100% 0,100% 90%,0 100%);s
+}
+
+.banner-heading:first-letter{
+  font-family: 'Great Vibes',cursive;
+  font-size: 10rem;
+  margin-right: 20px;
+
+}
+.banner-heading img{
+	animation: beating 2s infinite;
+}
+@keyframes beating{
+	0%{
+		transform: scale(1);
+	}
+	40%{
+	  transform: scale(1.1);
+	}
+	60%{
+		transform: scale(1.65);
+	}
+	75%{
+	
+		transform: scale(1.9);
+	}
+	85%{
+		transform: scale(1.1);
+	}
+	100%{
+		transform: scale(1);
+	}
+}
+/*end of header*/
+/*Gallery*/
+.common-title{
+	font-size: 3rem;
+	font-weight: 500;
+	text-shadow: 2px 2px 5px #aaa;
+}
+.common-title:first-letter{
+	font-family: 'Great Vibes',cursive;
+	font-size: 5rem;
+	margin-left: 10px;
+	font-style: normal;
+}
+.common-title:hover{
+	transform: translate(-5px,-3px);
+	text-shadow: 3px 5px 20px #aaa;
+}
+/*End of Gallery*/
